@@ -1,1 +1,1 @@
-# Discrete-Biological-Models
+# Discrete Biological Models
