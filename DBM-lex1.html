@@ -11775,11 +11775,11 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Extraction-of-genomc-dictionaries">Extraction of genomc dictionaries<a class="anchor-link" href="#Extraction-of-genomc-dictionaries">&#182;</a></h1><p>Given a string $s$ we would like to understand if it is written in the genomic alphabet.
+<h1 id="Extraction-of-genomic-dictionaries">Extraction of genomic dictionaries<a class="anchor-link" href="#Extraction-of-genomic-dictionaries">&#182;</a></h1><p>Given a string $s$ we would like to understand if it is written in the genomic alphabet.
 <br>
-We can use the <code>set</code> data structure, that is a modificable collection of elements wiht no repetitions.
+We can use the <code>set</code> data structure, that is a modifiable collection of elements with no repetitions.
 <br>
-We iterate over the positions of $s$ a extract the charatcers at the given position</p>
+We iterate over the positions of $s$ a extract the characters at the given position</p>
 
 </div>
 </div>
@@ -11871,7 +11871,7 @@ Alternatively, since a string is an iterable object, we can iterate over the cha
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><br>
-The <code>set</code> data structure does not assure any specific order regarding the elements contained in it. Thus multiple runnings of the same source code can generate the same set but printing the symbols in a differnt order.
+The <code>set</code> data structure does not assure any specific order regarding the elements contained in it. Thus multiple runnings of the same source code can generate the same set but printing the symbols in a different order.
 <br>
 The <code>sorted</code> function returns a list of sorted elements.</p>
 
@@ -11916,7 +11916,7 @@ The <code>sorted</code> function returns a list of sorted elements.</p>
 <p><br>
 The <code>sorted</code> function requires that there must exist an ordering relation between the elements of the input collection.
 <br>
-The following instructions generate an error because there is no defined ordering relation between string (or simple charatcters) and integers.</p>
+The following instructions generate an error because there is no defined ordering relation between string (or simple characters) and integers.</p>
 
 </div>
 </div>
@@ -11964,11 +11964,11 @@ The following instructions generate an error because there is no defined orderin
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><br>
-The way in which lists and sets (but more in generale any built-in data structure) are printed is defined by python.
+The way in which lists and sets (but more in general any built-in data structure) are printed is defined by python.
 <br>
 List are delimited by square brackets, while set are delimited by curly brackets, and elements are separated by commas.
 <br>
-However, we wuold like to personalize the print of our alphabet.
+However, we would like to personalize the print of our alphabet.
 <br>
 A first approach could be the creation of an empty string that will be concatenated to the symbols of the alphabet interleaved by a separator character.</p>
 
@@ -12259,7 +12259,7 @@ We can use the <code>join</code> function as well.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>However, we need to remember that the function concatenates the given string with the elements. If those elements are not strings, then the concatenation operation between a string and any other type of object is not defined in python. Thus we need to explicitelly cast the elements to be strings.</p>
+<p>However, we need to remember that the function concatenates the given string with the elements. If those elements are not strings, then the concatenation operation between a string and any other type of object is not defined in python. Thus we need to explicitly cast the elements to be strings.</p>
 
 </div>
 </div>
@@ -12341,7 +12341,7 @@ We can use the <code>join</code> function as well.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Extraction-for-$k-&gt;-1$">Extraction for $k &gt; 1$<a class="anchor-link" href="#Extraction-for-$k-&gt;-1$">&#182;</a></h2><p>The extraction fo the alphabet of a string correspond to the extraction fo the 1-mers contained in the string. The procedure can be generalized to extract 2-mers in the following manner:</p>
+<h2 id="Extraction-for-$k-&gt;-1$">Extraction for $k &gt; 1$<a class="anchor-link" href="#Extraction-for-$k-&gt;-1$">&#182;</a></h2><p>The extraction of the alphabet of a string correspond to the extraction of the 1-mers contained in the string. The procedure can be generalized to extract 2-mers in the following manner:</p>
 
 </div>
 </div>
@@ -12386,9 +12386,9 @@ We can use the <code>join</code> function as well.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>However, a problem arise. The extracted set of 2-mers contains a 1-mer, in the specific 't'.
 <br>
-The procedure can be represented as a sliding window, having size equal to two, and that starts from the first position fot he string extract the first 2-mer and, subsequentyl, extracted the other 2-mers by moving forward of one step.
+The procedure can be represented as a sliding window, having size equal to two, and that starts from the first position fot he string extract the first 2-mer and, subsequently, extracted the other 2-mers by moving forward of one step.
 <br>
-An easy to visualize all the extracted windows is to append them to a list an dthen printing the list:</p>
+An easy to visualize all the extracted windows is to append them to a list and then printing the list:</p>
 
 </div>
 </div>
@@ -12434,7 +12434,7 @@ An easy to visualize all the extracted windows is to append them to a list an dt
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><br>
-The last windows is positioned ont he last character of the string and it extracts the charater it self and an unexistent positon that go over the string.
+The last windows is positioned on the last character of the string and it extracts the character it self and an inexistent position that go over the string.
 Thus, the windows must be stopped one position before.</p>
 
 </div>
@@ -12481,9 +12481,9 @@ Thus, the windows must be stopped one position before.</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><br>
-We recall that given a string $s$ the number of k-mers (with duplicates) that are contained in the string equals $|s| - k + 1$. 
+We recall that, given a string $s$ the number of k-mers (with duplicates) that are contained in the string equals $|s| - k + 1$. 
 <br>
-Such a value is exactly the last available position form wich a window of size $k$ does not exceed the right-most limit of the string.</p>
+Such a value is exactly the last available position form which a window of size $k$ does not exceed the right-most limit of the string.</p>
 
 </div>
 </div>
