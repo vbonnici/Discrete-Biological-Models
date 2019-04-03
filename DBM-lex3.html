@@ -11856,10 +11856,12 @@ A dictionary may contains words of different length, but this property does not 
             <span class="n">positions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">positions</span>
 
-<span class="n">dictionary</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;ga&#39;</span><span class="p">,</span> <span class="s1">&#39;ag&#39;</span><span class="p">,</span> <span class="s1">&#39;ca&#39;</span><span class="p">,</span> <span class="s1">&#39;t&#39;</span><span class="p">]</span>
+<span class="c1"># s = &#39;agctaggaggatcgccagat&#39;</span>
+<span class="n">dictionary</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;ga&#39;</span><span class="p">,</span> <span class="s1">&#39;ag&#39;</span><span class="p">,</span> <span class="s1">&#39;ca&#39;</span><span class="p">,</span> <span class="s1">&#39;t&#39;</span><span class="p">,</span> <span class="s1">&#39;aaaa&#39;</span><span class="p">]</span>
 
 <span class="n">coverage</span> <span class="o">=</span> <span class="p">[</span><span class="kc">False</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">))]</span>
-<span class="c1">#coverage = [False] * len(s)</span>
+
+<span class="c1"># coverage = [False] * len(s)</span>
 
 <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">dictionary</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">pos</span> <span class="ow">in</span> <span class="n">get_positions</span><span class="p">(</span><span class="n">s</span><span class="p">,</span><span class="n">w</span><span class="p">):</span>
@@ -12198,13 +12200,13 @@ The function presented above is a toy example because it do not deal with FASTA 
         <span class="n">k</span> <span class="o">+=</span> <span class="mi">1</span>
         <span class="n">next_k</span> <span class="o">=</span> <span class="kc">False</span>
         <span class="k">for</span> <span class="n">kmer</span> <span class="ow">in</span> <span class="n">get_kmers</span><span class="p">(</span><span class="n">s</span><span class="p">,</span><span class="n">k</span><span class="p">):</span>
-            <span class="n">mult</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">kmer</span><span class="p">)</span>
+            <span class="n">mult</span> <span class="o">=</span> <span class="n">count_occurrences</span><span class="p">(</span><span class="n">s</span><span class="p">,</span><span class="n">kmer</span><span class="p">)</span>
             <span class="k">if</span> <span class="n">mult</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
                 <span class="n">mrl</span> <span class="o">=</span> <span class="n">k</span>
                 <span class="n">kmer_mrl</span> <span class="o">=</span> <span class="n">kmer</span>
                 <span class="n">mult_mrl</span> <span class="o">=</span> <span class="n">mult</span>
                 <span class="n">next_k</span> <span class="o">=</span> <span class="kc">True</span>
-    <span class="k">return</span> <span class="n">mrl</span><span class="p">,</span> <span class="n">kmer_mrl</span><span class="p">,</span><span class="n">mult_mrl</span>
+    <span class="k">return</span> <span class="n">mrl</span><span class="p">,</span> <span class="n">kmer_mrl</span><span class="p">,</span> <span class="n">mult_mrl</span>
 
 
 <span class="n">mrl_s</span><span class="p">,</span> <span class="n">kmer_mrl</span><span class="p">,</span> <span class="n">mult_mrl</span> <span class="o">=</span> <span class="n">mrl</span><span class="p">(</span><span class="n">s</span><span class="p">[:</span><span class="mi">1000</span><span class="p">])</span>
