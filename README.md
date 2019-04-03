@@ -7,3 +7,5 @@
 
 
 [Lesson 2](http://htmlpreview.github.io/?https://raw.githubusercontent.com/vbonnici/Discrete-Biological-Models/master/DBM-lex2.html)
+
+[Lesson 2](http://htmlpreview.github.io/?https://raw.githubusercontent.com/vbonnici/Discrete-Biological-Models/master/DBM-lex3.html)
