@@ -4,10 +4,6 @@
 
 [Lesson 1](notebooks/DBM-lex1.ipynb)
 
+[Lesson 2](notebooks/DBM-lex2.ipynb)
 
-[Lesson 1](http://htmlpreview.github.io/?https://raw.githubusercontent.com/vbonnici/Discrete-Biological-Models/master/DBM-lex1.html?token=AD6kRtP1o8bBYOGBZG_ORTmjPU5bMgoUks5cndsMwA%3D%3D)
-
-
-[Lesson 2](http://htmlpreview.github.io/?https://raw.githubusercontent.com/vbonnici/Discrete-Biological-Models/master/DBM-lex2.html)
-
-[Lesson 3](http://htmlpreview.github.io/?https://raw.githubusercontent.com/vbonnici/Discrete-Biological-Models/master/DBM-lex3.html)
+[Lesson 3](notebooks/DBM-lex3.ipynb)
