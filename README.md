@@ -13,3 +13,7 @@
 [Lesson 3](notebooks/DBM-lex3.ipynb)
 [(raw notebook)](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/notebooks/DBM-lex3.ipynb) 
 [(script)](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/scripts/DBM-lex3.py) 
+
+[Lesson 4](notebooks/DBM-lex4.ipynb)
+[(raw notebook)](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/notebooks/DBM-lex4.ipynb) 
+[(script)](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/scripts/DBM-lex4.py)
