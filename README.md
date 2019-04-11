@@ -14,6 +14,12 @@
 [(raw notebook)](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/notebooks/DBM-lex3.ipynb) 
 [(script)](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/scripts/DBM-lex3.py) 
 
+[mycoplasma_genitalium_G37.fna](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/notebooks/mycoplasma_genitalium_G37.fna) 
+
 [Lesson 4](notebooks/DBM-lex4.ipynb)
 [(raw notebook)](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/notebooks/DBM-lex4.ipynb) 
 [(script)](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/scripts/DBM-lex4.py)
+
+[Lesson 5](notebooks/DBM-lex5.ipynb)
+[(raw notebook)](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/notebooks/DBM-lex5.ipynb) 
+[(script)](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/scripts/DBM-lex5.py)
