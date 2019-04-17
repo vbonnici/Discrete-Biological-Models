@@ -31,3 +31,6 @@
 [Lesson 6](notebooks/DBM-lex6.ipynb)
 [(raw notebook)](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/notebooks/DBM-lex6.ipynb) 
 [(script)](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/scripts/DBM-lex6.py)
+
+
+[IGTools](https://github.com/InfOmics/IGTools)
