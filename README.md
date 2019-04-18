@@ -45,7 +45,9 @@
 
 ----
 # Progetti
-A breve termine
+A breve termine (1-7), a lungo termine (8-14), simil ricerca(15-18)
+
+
 1)	Hapaxicità su genomi random con varie distribuzioni
 - 1 gruppo
 2)	Correlazione nei genomi random tra HB e alcune distanze tra distribuzioni
@@ -59,7 +61,6 @@ A breve termine
 - 1 gruppo
 7)	Word elongation per classi di regioni genomice (es. Geni, promotori, non-coding, etc…)
 - 1 gruppo
-A medio termine
 8)	Segmentazione, modi di segmentare, segmentazione e coverage, segmentazione e similarità
 - 1 gruppo
 9)	Caratterizzazione di genomi (pangenomini) tramite grafi di de Brujin
@@ -72,7 +73,6 @@ A medio termine
 - 1 gruppo
 14)	Implementazione di un framework per la genomica informazionale basato su biopython
 - 1 gruppo
-Simil ricerca
 15)	Unione e intersezione di dizionari tramite strutture dati avanzate (in collaborazione con Dott. M. Rossi)
 16)	Differental k-mers e pangenoma
 17)	Differential k-mers e ortologhi
