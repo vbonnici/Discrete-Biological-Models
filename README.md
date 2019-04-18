@@ -33,4 +33,9 @@
 [(script)](https://github.com/vbonnici/Discrete-Biological-Models/raw/master/scripts/DBM-lex6.py)
 
 
-[IGTools](https://github.com/InfOmics/IGTools)
+
+[Introduction to IGTools](igtools/igtools.pdf)
+
+[IGTools repository](https://github.com/InfOmics/IGTools)
+
+[IGTools examples](igtools/examples)
