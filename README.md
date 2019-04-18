@@ -45,7 +45,7 @@
 
 ----
 # Progetti
-A breve termine (1-7), a lungo termine (8-14), simil ricerca(15-18)
+A breve termine (1-7), a medio termine (8-14), simil ricerca(15-18)
 
 
 1)	Hapaxicità su genomi random con varie distribuzioni
