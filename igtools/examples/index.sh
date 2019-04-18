@@ -7,3 +7,7 @@
 
 java -cp igtools.jar igtools.cli.util.FASTATo3bit nanoa.fa nanoa.3bit
 java -cp igtools.jar igtools.cli.dictionaries.BuildNELSA nanoa.3bit nanoa.nelsa
+
+
+
+java -cp igtools.jar shownelsa.java
