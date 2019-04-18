@@ -39,3 +39,41 @@
 [IGTools repository](https://github.com/InfOmics/IGTools)
 
 [IGTools examples](igtools/examples)
+
+
+
+
+----
+# Progetti
+A breve termine
+1)	Hapaxicità su genomi random con varie distribuzioni
+- 1 gruppo
+2)	Correlazione nei genomi random tra HB e alcune distanze tra distribuzioni
+- 1 gruppo
+3)	Implementazione di SA ed LCP in cython (+ N array in c)
+4)	Caratterizzazione di pangenome per speci
+- 1 gruppo
+5)	Divergenze e similarità su genomi e pangenome
+-	1 gruppo
+6)	Usare l’indice di coding C3 per distinguere protein coding da non-protein coding
+- 1 gruppo
+7)	Word elongation per classi di regioni genomice (es. Geni, promotori, non-coding, etc…)
+- 1 gruppo
+A medio termine
+8)	Segmentazione, modi di segmentare, segmentazione e coverage, segmentazione e similarità
+- 1 gruppo
+9)	Caratterizzazione di genomi (pangenomini) tramite grafi di de Brujin
+10)	Confronto di genomi (pangenomini) tramite grafi di de Brujin
+- 1 gruppo
+11)	TAD e creodi
+- 1 gruppo
+12)	Sostituire l’N array con rank(select) (in collaborazione con Dott. M. Rossi)
+13)	Un framework avanzato for la genomica informazionale puramente in python
+- 1 gruppo
+14)	Implementazione di un framework per la genomica informazionale basato su biopython
+- 1 gruppo
+Simil ricerca
+15)	Unione e intersezione di dizionari tramite strutture dati avanzate (in collaborazione con Dott. M. Rossi)
+16)	Differental k-mers e pangenoma
+17)	Differential k-mers e ortologhi
+18)	Differential k-mers e biomarcatori
