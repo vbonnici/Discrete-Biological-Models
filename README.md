@@ -35,5 +35,7 @@
 
 
 [Introduction to IGTools](igtools/igtools.pdf)
+
 [IGTools repository](https://github.com/InfOmics/IGTools)
+
 [IGTools examples](igtools/examples)
