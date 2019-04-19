@@ -1,14 +1,14 @@
 # Progetto 2 : Correlazione nei genomi random tra HB e alcune distanze tra distribuzioni
 
 Date delle stringhe generate randomicamente con delle opportune distribuzioni di probabilità dei simboli,
-si studi la correlazione tra i valori di $HB$ (hapax bound) ottenuti su tali stringhe ed i corrispettivi parametri delle distribuzioni.
+si studi la correlazione tra i valori di HB (hapax bound) ottenuti su tali stringhe ed i corrispettivi parametri delle distribuzioni.
 
 
 Si utilizzino le similiartià, distanze e divergenze tra distribuzioni viste a lezione.
 
 Si generino delle sequenze randomiche 
-variando la cardinalità dell'alfabeto su 3 possibili valori $4,64,1024$
-e la lunghezza della sequenza in 8 possibili lunghezze $5000, 10000, 500000, 100000, 500000, 1000000, 5000000, 10000000$.
+variando la cardinalità dell'alfabeto su 3 possibili valori 4,64,1024
+e la lunghezza della sequenza in 8 possibili lunghezze 5000, 10000, 500000, 100000, 500000, 1000000, 5000000, 10000000.
 
 La generazione di tali sequenze deve avvenire attraverso lo script `generate_sequence.py`.
 Tale script prende in input i seguenti parametri:
