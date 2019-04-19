@@ -1,8 +1,8 @@
-# Progetto 6 : Usare l'indice di coding C_3 per distinguere RNA codificanti per proteina con RNA non codificanti
+# Progetto 6 : Usare l'indice di coding C3 per distinguere RNA codificanti per proteina con RNA non codificanti
 
-Sia $R(S,k,d)$ il valore di ricorrenza medio calcolato su tutti i k-meri (di lunghezza $k$) di una sequenza genomica $S$ a distanza di ricorrenza $d$. Ovvero, $R(S,k,d)$ è il valore della average RDD per la distanza di ricorrenza $d$.
+Sia $R(S,k,d)$ il valore di ricorrenza medio calcolato su tutti i k-meri (di lunghezza k) di una sequenza genomica S a distanza di ricorrenza d. Ovvero, $R(S,k,d)$ è il valore della average RDD per la distanza di ricorrenza d.
 
-Il valore dell'indice $C_3$ è dato dalla seguente formula 
+Il valore dell'indice C3 è dato dalla seguente formula 
 $ C_3(S,k)  = \sum_{d} |R(S,k,d)| - \frac{|R(S,k,-1)| + |R(S,k,d+2)| }{2} $
 per tute le distanze di ricorrenza $d$ multiple di 3, a partire da 6 fino al valore massimo possibile espresso dalla aRDD presa in esame.
 
