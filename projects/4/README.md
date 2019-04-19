@@ -2,9 +2,9 @@
 
 Dati $n$ genomi appartenenti alla stessa specie,
 il pangenoma informazionale della specie è definito come
-$D_k(G_1) \cup D_k(G_2) \cup ... \cup D_k(G_n)$.
+Dk(G1) U Dk(G2) U ... U Dk(Gn).
 
-La lunghezza di parola $k$ deve essere uguale al minimo valore di $LG$ per i vari genomi.
+La lunghezza di parola k deve essere uguale al minimo valore di LG per i vari genomi.
 
 Si utilizzino le nozioni di similarità, distanza e divergenza introdotte a lezione,
 applicate alla distribuzione della molteplicità di parola (word multiplicity distribution),
