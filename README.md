@@ -66,7 +66,7 @@ A breve termine (1-7), a medio termine (8-14), simil ricerca(15-18)
 9)	Caratterizzazione di genomi (pangenomini) tramite grafi di de Brujin
 10)	Confronto di genomi (pangenomini) tramite grafi di de Brujin
 - 1 gruppo
-11)	TAD e creodi
+11)	TAD  (topological association domains) e creodi
 - 1 gruppo
 12)	Sostituire l’N array con rank(select) (in collaborazione con Dott. M. Rossi)
 13)	Un framework avanzato for la genomica informazionale puramente in python
