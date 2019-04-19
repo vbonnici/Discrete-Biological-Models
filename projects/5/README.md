@@ -1,21 +1,21 @@
 # Progetto 5 : Divergenze e similarità tra genomi e pangenomi
 
-Dati $n$ genomi appartenenti alla stessa specie,
+Dati n genomi appartenenti alla stessa specie,
 il pangenoma informazionale della specie è definito come
-$D_k(G_1) \cup D_k(G_2) \cup ... \cup D_k(G_n)$.
+Dk(G1) U Dk(G2) U ... U Dk(Gn)$.
 
 Si utilizzi la nozione di divergenza di Kullback–Leibler (KL) introdotta a lezione
 applicata alla distribuzione della molteplicità di parola (word multiplicity distribution),
 per studiare le variazioni di tale divergenza nell'includere un genoma in un pangenoma della stessa specie rispetto alla sua introduzione nel pangenoma di una specie differente da quella di appartenenza.
 La moltepilcità di parola di un k-mer relativamente ad un pangenoma è definita come la media delle molteplicità del k-mer nei singoli genomi.
 
-Devono essere prese in considerazioni le seguenti due lunghezze di parola $k$:
-1) il minomo valore di $LG$ tra i genomi presi in esame
-2) il massimo valore $k$ tale $D_k(G_1) = D_k(G_2) = ... = D_k(G_n)$
+Devono essere prese in considerazioni le seguenti due lunghezze di parola k:
+1) il minomo valore di LG tra i genomi presi in esame
+2) il massimo valore k tale Dk(G1) = Dk(G2) = ... = Dk(Gn)
 
-Nel primo caso, la divergenza KL deve essere calcolata prendendo in cosniderazione le frequenze di tutti i e soli i k-mer che occorrono in tutti i genomi analizzati, ovvero $D_k(I) = D_k(G_1) \cap D_k(G_2) \cap ... \cap D_k(G_n) $. si ricorda che nell'escludere i k-mer di un genoma non presenti in tale intersezione, le frequenze vanno ricalcolate tale che la loro somma relativamente ad un genoma si mantenga uguale a 1.
+Nel primo caso, la divergenza KL deve essere calcolata prendendo in cosniderazione le frequenze di tutti i e soli i k-mer che occorrono in tutti i genomi analizzati, detto Dk(I) e dato dalla intersezione di  Dk(G1), Dk(G2) ... Dk(Gn). si ricorda che nell'escludere i k-mer di un genoma non presenti in tale intersezione, le frequenze vanno ricalcolate tale che la loro somma relativamente ad un genoma si mantenga uguale a 1.
 Il valore di KL va quindi riscalato in modo da tenere conto dei k-mer che sono stati esclusi dalla intersezione. 
-Indicando $D_K(U) = D_k(G_1) \cup D_k(G_2) \cup ... \cup D_k(G_n)$, il valore finale di KL è dato dalla sequente formula: $ KL \dot ( D_k(I) / D_k(U) ) $.
+Indicando Dk(U) = Dk(G1) U Dk(G2) U ... U Dk(Gn), il valore finale di KL è dato dalla sequente formula: KL * ( Dk(I) / Dk(U) ) $.
 
 
 si conduca lo studio su 4 gruppi di genomi appartenente a 4 ceppi di due specie diverse. si studino le differenze tra le distanze dei pangenomi tra ceppi e tra specie.
