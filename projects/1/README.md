@@ -1,22 +1,22 @@
 # Progetto 1 :  hapaxicità su genomi randomici creati su varie distributioni di probabilità
 
-Al variare della lunghezza di parola $k$, si calcolino gli indici di ripetitià e hapaxicità, ovvero:
+Al variare della lunghezza di parola k, si calcolino gli indici di ripetitià e hapaxicità, ovvero:
 1) numero di hapax
 2) numero di repeat
-3) percentuale di hapax rispetto a $D_k$
-4) percentuale di repeat rispetto a $D_k$
+3) percentuale di hapax rispetto a Dk
+4) percentuale di repeat rispetto a Dk
 5) molteplicità media (e deviazioni standard) dei soli repeat
 
-Data una stringa di lunghezza $n$ costruita su un alfabeto di $m$ simboli, 
-il valore di $k$ deve variare da 1 a $mrl + 1$ (maximum repeat length +1).
+Data una stringa di lunghezza n costruita su un alfabeto di m simboli, 
+il valore di k deve variare da 1 a mrl + 1 (maximum repeat length +1).
 
 Si generino dei diagrami opportuni (che possono anche essere dei semplici diagrammi a barre) per la visualizzazione e comparazione di ognuna delle 5 distributioni elencate precedentemente. 
-All'interno di tal diagrammi si evidenzi il valore $(lg_m n)$.
+All'interno di tal diagrammi si evidenzi il valore lg_m(n) (ovvero, logaritmo in base m di n).
 
 
 Si generino delle sequenze randomiche 
-variando la cardinalità dell'alfabeto su 5 possibili valori $4,16,64,256,1024$
-e la lunghezza della sequenza in 4 possibili lunghezze $10000, 100000, 1000000, 10000000$.
+variando la cardinalità dell'alfabeto su 5 possibili valori 4,16,64,256,1024
+e la lunghezza della sequenza in 4 possibili lunghezze 10000, 100000, 1000000, 10000000.
 
 La generazione di tali sequenze deve avvenire attraverso lo script `generate_sequence.py`.
 Tale script prende in input i seguenti parametri:
