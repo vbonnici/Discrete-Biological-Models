@@ -53,7 +53,7 @@ A breve termine (1-7), a medio termine (8-14), simil ricerca(15-18)
 2)	Correlazione nei genomi random tra HB e alcune distanze tra distribuzioni
 - 1 gruppo
 3)	Implementazione di SA ed LCP in cython (+ N array in c)
-4)	Caratterizzazione di pangenome per speci
+4)	Caratterizzazione di pangenome per specie
 - 1 gruppo
 5)	Divergenze e similarità su genomi e pangenome
 -	1 gruppo
