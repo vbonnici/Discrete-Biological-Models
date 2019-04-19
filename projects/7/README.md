@@ -14,9 +14,9 @@ Il tool prende in input
 - la lunghezza dei semi da cui partire
 - la moteplicità minima delle parole estratte
 
-Si fissi la misura da utilizzare a $kl$ e la molteplicità minima a 2.
+Si fissi la misura da utilizzare a `kl` e la molteplicità minima a 2.
 Si faccia variare la lunghezza dei semi da 1 a 12,
-e si estragga nei versi $L2R$ ed $R2L$, quindi si prenda lunione degli insiemi ottenuti facendo variare i due parametri.
+e si estragga nei versi `L2R` ed `R2L`, quindi si prenda lunione degli insiemi ottenuti facendo variare i due parametri.
 si escludano dall'insieme risultate le parole che sono prefisso di un'altra parola dell'insieme.
 
 ---
