@@ -1,7 +1,7 @@
 # Progetto 9 : Confronto di genomi/pangenomi tramite grafi di de Bruijn 
 
 Si utilizzano i grafi di de Bruijn per il confronto di genomi e/o pangenomi.
-La lunghezza di parola $k$ con la quale costruire il grafo deve essere il valore minimo di $LG$ tra i genomi presi in considerazione.
+La lunghezza di parola k con la quale costruire il grafo deve essere il valore minimo di LG tra i genomi presi in considerazione.
 
 Un volta costruiti i grafi di due genomi/pangenomi da confrontare, si studino le proprietà dei percorsi all'interno di tali grafi che non sono presenti in entrambi i genomi/pangenomi.
 Proprietà necessarie da valutare sono la distribuzione delle lunghezze di tali percorsi e la distribuzione dei gradi dei nodi contenuti in essi.
