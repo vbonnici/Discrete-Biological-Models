@@ -1,10 +1,15 @@
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
+config=TeX-MML-AM_CHTML"
+</script>
+
 # Progetto 1 :  hapaxicità su genomi randomici creati su varie distributioni di probabilità
 
-Al variare della lunghezza di parola $k$, si calcolino gli indici di ripetitià e hapaxicità, ovvero:
+Al variare della lunghezza di parola $$k$$, si calcolino gli indici di ripetitià e hapaxicità, ovvero:
 1) numero di hapax
 2) numero di repeat
-3) percentuale di hapax rispetto a $D_k$
-4) percentuale di repeat rispetto a $D_k$
+3) percentuale di hapax rispetto a $$D_k$$
+4) percentuale di repeat rispetto a $$D_k$$
 5) molteplicità media (e deviazioni standard) dei soli repeat
 
 Data una stringa di lunghezza $n$ costruita su un alfabeto di $m$ simboli, 
