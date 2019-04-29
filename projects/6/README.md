@@ -4,7 +4,7 @@ Sia R(S,k,d) il valore di ricorrenza medio calcolato su tutti i k-meri (di lungh
 
 Il valore dell'indice C3 è ottenuto sommando i valori della seguente formula 
 <br>
-R(S,k,d) -  (( R(S,k,-1) + R(S,k,d+2) )  / 2 )
+R(S,k,d) -  (( R(S,k,d-1) + R(S,k,d+1) )  / 2 )
 <br>
 per tutte le distanze di ricorrenza d multiple di 3, a partire da 6 fino al valore massimo possibile espresso dalla aRDD presa in esame.
 
