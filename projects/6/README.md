@@ -15,4 +15,7 @@ si applici tale indice nello distringuere RNA codificante per proteina e non in 
 
 ---
  La tecnica per l'estrazione delle aRDD è lasciata libera.
+ 
+ 
+ Il database di riferimento [ENSEMBL genes](https://www.ensembl.org/index.html) viene consigliato  per il download delle informazioni relative a sequenze protein-coding e non-protein coding (ncRNA).
 
