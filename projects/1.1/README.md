@@ -1,4 +1,4 @@
-# Progetto 1 :  hapaxicità su genomi randomici creati su varie distributioni di probabilità
+# Progetto 1.1 :  hapaxicità su genomi randomici creati su varie distributioni di probabilità
 
 A partire da una collezione di sequenze randomiche, si calcolino gli indici di ripetitià e hapaxicità per ognuna delle sequenze, ovvero:
 1) indice HB (hapax bound)
